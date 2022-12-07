@@ -115,14 +115,13 @@ body {
 	content: '';
 
 	position: absolute;
-	left: 0;
-	right: 10px;
+	left: calc(50% - 10.5px);
 	bottom: -6px;
-
-	display: block;
-	/* width: 35px; */
+	display: flex;
+	justify-content: center;
+	width: 21px;
 	height: 4px;
-	background-color: #c4c4c4;
+	background-color: #FB9B69;
 	border-radius: 50px;
 }
 
@@ -326,7 +325,7 @@ body {
 	width: var(--width);
 	height: var(--line-height);
 	background-color: var(--color);
-	right: 30px;
+	
 }
 
 .menu-icon::before,
@@ -519,6 +518,9 @@ body {
 	}
 	.orbita {
 		display: none;
+	}
+	.link-wrapper {
+		margin-bottom: 30px;
 	}
 }	
 @media (max-width: 370px) {
