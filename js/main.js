@@ -11,8 +11,8 @@ navBtn.onclick = function () {
 	document.body.classList.toggle('no-scroll');
 };
 
-let name = document.querySelector('#input'); // Получаем input
-let regex = /[!@#$%^&*()]/; // регулярка только цифры
+let name = document.querySelector('#input');
+let regex = /[!@#$%^&*()]/;
  
 name.oninput = function(){
     this.value = this.value.replace(regex, '');
